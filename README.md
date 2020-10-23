@@ -1,11 +1,9 @@
 # CoppeliaSim-Python-Connecting-
 ## Program Environment
 
--- Operating System: Ubuntu 18.04
-
--- CoppeliaSim Version: 4.1.0
-
--- Python Version: 3.6.9
+	Operating System: Ubuntu 18.04
+	CoppeliaSim Version: 4.1.0
+	Python Version: 3.6.9
 
 ## Connect Method: Blue-zero Remote API
 
@@ -18,11 +16,11 @@ The **Python Client** Environment Configuration is shown in the picture in follo
 
 One of **configurations of Simulator Server**: Add a Script-Model into the Scene
 
-1.Select the purpose Scene
+1. Select the purpose Scene
 
-2.Add a Script-Model: "File / Load Model... / tools / B0 remote Api server.ttm
+2. Add a Script-Model: "File / Load Model... / tools / B0 remote Api server.ttm
 
-3.Configure the node information of the added model, the result seems as the following figure
+3. Configure the node information of the added model, the result seems as the following figure
 ![image](https://github.com/huangyh43/CoppeliaSim-Python-Connecting-/blob/main/Readme_Pic/serverRes.png)
 
 	**Notes**: The "Node name" and "Channel name" must be same at both two platform (Python and CoppliaSim)
